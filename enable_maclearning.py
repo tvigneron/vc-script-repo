@@ -50,7 +50,7 @@ def get_all_objs(content, vimtype):
     return obj
 
 def wait_for_task(task, actionName='job', hideResult=False):
-    while task.info.state == vim.TaskInfo.State.running:
+    while task.info.state == vim.TaskInfo.State.running or str(task.info.state) == "queued":
         time.sleep(2)
 
     if task.info.state == vim.TaskInfo.State.success:
