@@ -3,7 +3,7 @@
 # License: https://github.com/vmware/pyvmomi-community-samples/blob/master/LICENSE
 
 # Purpose:  Enables MAC Learning and Forged Transmit on a given PortGroup
-
+# The script should be used with a CLI command like: python3 <pythonfile> -s <vcenter> -u <user> -p <password> -pg <portgroup>
 
 from pyVim.connect import SmartConnect
 import ssl
