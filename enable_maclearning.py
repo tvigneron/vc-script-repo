@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Disclaimer: This product is not supported by VMware.
+# Disclaimer: This product is not supported by VMware. It is a sample script I put together to give an example on how to enable MAC learning and Forged transmit in Python.
 # License: https://github.com/vmware/pyvmomi-community-samples/blob/master/LICENSE
 
 # Purpose:  Enables MAC Learning and Forged Transmit on a given PortGroup
